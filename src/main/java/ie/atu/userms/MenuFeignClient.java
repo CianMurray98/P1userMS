@@ -10,3 +10,4 @@ public interface MenuFeignClient {
     @GetMapping("/menu/{itemId}")
     String getMenuItemById(@PathVariable String itemId);
 }
+
